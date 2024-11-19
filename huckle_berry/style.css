@@ -79,3 +79,21 @@ span {
     border-bottom: 8px solid #999999;
 }
 
+.nav-list {
+    display: flex;
+    list-style: none;
+    max-width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    gap: 2.875rem;
+    color: yellow;
+    font-weight: 500;
+  }
+
+  @media(max-width: 560px) {
+    .nav-list {
+        flex-direction: column;
+    }
+  }
+

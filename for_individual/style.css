@@ -76,6 +76,11 @@ input, select {
     margin-top: 12px;
 
 }
+@media(max-width: 560px) {
+    .flex-row {
+        flex-direction: column;
+    }
+}
 
 button {
     display: flex;
@@ -99,4 +104,24 @@ button {
    input:hover,select:hover {
     border:1px solid   #2EC4B6;
 }
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    max-width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    gap: 2.875rem;
+    color: green;
+    font-weight: 500;
+  }
+
+  @media(max-width: 560px) {
+    .nav-list {
+        flex-direction: column;
+    }
+  }
+
 
